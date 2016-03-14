@@ -41,6 +41,11 @@
 % processParams.output_folder = PARENT_FOLDER_NAME;              % name of parent folder containing SCANPHYSLOG files
 % processParams.verbose = true;                                  % print progress messages
 %
+% Developed with MATLAB R2014b
+%
+% Supported by a grant from the National Institutes of Health (NIH), National
+% Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) - R01DK105371
+%
 
 %
 % History:

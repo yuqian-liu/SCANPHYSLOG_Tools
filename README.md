@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/11902/welcheb/SCANPHYSLOG_Tools.svg)](https://zenodo.org/badge/latestdoi/11902/welcheb/SCANPHYSLOG_Tools)
+
 SCANPHYSLOG_Tools
 =================
 Software tools to load and analyze physiology monitoring log files from the Philips MRI scanner.
@@ -54,6 +56,11 @@ loadSCANPHYSLOG.m
 % duration is one way to examine the physiology measurements occuring
 % during the scan itself.
 %
+% Developed with MATLAB R2014b
+%
+% Supported by a grant from the National Institutes of Health (NIH), National
+% Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) - R01DK105371
+%
 ~~~~~
 
 process_SCANPHYSLOG_parent_folder.m
@@ -102,6 +109,11 @@ process_SCANPHYSLOG_parent_folder.m
 % processParams.output_folder = PARENT_FOLDER_NAME;              % name of parent folder containing SCANPHYSLOG files
 % processParams.verbose = true;                                  % print progress messages
 %
+% Developed with MATLAB R2014b
+%
+% Supported by a grant from the National Institutes of Health (NIH), National
+% Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) - R01DK105371
+%
 ~~~~~
 
 example.m
@@ -135,3 +147,7 @@ example SCANPHYSLOG.csv contents
 | 14  | 2016-02-01 | 10:39:47 | 8.00         | 55.75           | 3.11             | 2.08             | 53.67            | 57.83            | 4.00          | 11.50            | 1.29              | 1.52              | 9.98              | 13.02             |
 | 15  | 2016-02-01 | 10:43:19 | 9.00         | 50.00           | 7.81             | 4.84             | 45.16            | 54.84            | 4.00          | 13.75            | 2.63              | 3.09              | 10.66             | 16.84             |
 | 16  | 2016-02-01 | 10:46:59 | 9.00         | 51.11           | 5.49             | 3.40             | 47.71            | 54.51            | 4.00          | 15.75            | 2.63              | 3.09              | 12.66             | 18.84             |
+
+Grant Support
+-------------
+Supported by a grant from the National Institutes of Health (NIH), National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) - R01DK105371
